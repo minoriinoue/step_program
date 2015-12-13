@@ -69,21 +69,6 @@ int main(int argc, char* argv[]){
   return 0;
 }
 
-/*int decide_arraysize(int ideal){
- printf("int ideal: %d\n", ideal);
- int arraysize = INTMAX / 2;
- int i = 0;
- do{
- printf("arraysize now: %d\n", arraysize);
- printf("i = %d\n", i);
- arraysize = arraysize / (int)pow(2, i);
- i++;
- }while(arraysize * (int)sizeof(int) > ideal);
- printf("Finished method decide_memorysize.\nmemorysize: %d\n", arraysize);
- return arraysize;
- }
-*/
-
 void reset(int *heap, int array_size){
   for(int i = 0; i < array_size; i++){
     heap[i] = 0;
