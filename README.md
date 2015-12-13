@@ -1,4 +1,4 @@
-# Google STEP program homework
+## Google STEP program homework
 
 * kadai1: Given 16-letter input, return the longest word. (Anagram)
 * kadai2: Find the fastest way to compute multiplication of matrices: A * B = C
